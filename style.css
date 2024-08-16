@@ -1,49 +1,121 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333333;
+    font-family: 'Verdana', sans-serif;
+    background-color: #f9f1f6;
+    color: #5a5a5a;
     margin: 0;
     padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders are included in the element's total width and height */
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1200px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Centers the container */
+    padding: 0 20px; /* Adds space on left and right sides */
 }
 
 /* Header */
 header {
-    background-color: #4a90e2; /* Soft blue from the image */
+    background-color: #eab6c0;
     color: #ffffff;
     padding: 20px;
     text-align: center;
+    font-family: 'Georgia', serif;
+}
+
+header h1 {
+    font-family: 'Georgia', serif;
+    color: #d1d1d1; /* Light gray color */
+    text-transform: uppercase; /* All caps */
+    letter-spacing: 4px; /* Wider spacing between letters */
+    font-size: 2em; /* Adjust font size if needed */
 }
 
 /* Navigation Bar */
+nav {
+    text-align: center; /* Center align navigation links */
+}
+
 nav a {
     color: #ffffff;
     padding: 10px 15px;
     text-decoration: none;
+    font-family: Verdana, sans-serif;
+    text-transform: uppercase; /* All caps */
+    letter-spacing: 2px; /* Wider spacing between letters */
+    font-size: 0.9em; /* Slightly smaller text */
     display: inline-block;
+    transition: color 0.3s; /* Smooth transition for text color change */
 }
 
 nav a:hover {
-    background-color: #3d78c1; /* Slightly darker blue on hover */
-    border-radius: 4px; /* Rounded corners on hover */
+    color: #d49ea8; /* Color change on hover */
 }
 
 /* Hero Section */
 .hero {
-    background-color: #d1e0f0; /* Light blue shade */
-    color: #333333;
+    background-color: #f4e1e8;
+    color: #5a5a5a;
     padding: 60px 20px;
     text-align: center;
+    border-top: 5px solid #eab6c0;
 }
 
-/* Buttons */
-button {
-    background-color: #4a90e2; /* Matching the header color */
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 2.5em;
+}
+/* Navigation Bar Heading */
+header h1 {
+    color: #004d00; /* Dark green color */
+    font-family: Verdana, sans-serif; /* Verdana font */
+    text-transform: uppercase; /* All caps */
+    letter-spacing: 2px; /* Wider spacing between letters */
+    font-size: 2em; /* Adjust the font size as needed */
+}
+
+
+
+/* Main Content */
+main {
+    padding: 20px; /* Space inside the main content area */
+}
+
+section {
+    margin-bottom: 20px; /* Space between sections */
+}
+
+h3 {
+    color: #004d00; /* Warm deep green */
+}
+
+/* Horizontal Line */
+hr {
+    border: 1px solid #d1d1d1;
+    width: 80vw; /* Adjust if needed */
+    margin: 20px auto;
+}
+
+/* Footer */
+footer {
+    background-color: #5a5a5a;
     color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
+    padding: 10px 20px; /* Adds space inside the footer */
+    text-align: center;
+    font-size: 0.8em; /* Reduced font size for footer */
 }
 
-button:hover {
-    background-color: #3d78c1; /* Slight
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
