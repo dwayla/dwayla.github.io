@@ -1,0 +1,49 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #4a90e2; /* Soft blue from the image */
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Bar */
+nav a {
+    color: #ffffff;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #3d78c1; /* Slightly darker blue on hover */
+    border-radius: 4px; /* Rounded corners on hover */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #d1e0f0; /* Light blue shade */
+    color: #333333;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+/* Buttons */
+button {
+    background-color: #4a90e2; /* Matching the header color */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3d78c1; /* Slight
